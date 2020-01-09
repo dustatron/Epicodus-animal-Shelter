@@ -1,16 +1,38 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
 body {
   position: relative;
+  background-color: rgb(77, 74, 90);
 }
 
 .container {
+  float: left;
+  position: relative;
 
 }
 
 .column{
   float: left;
-  width: 28%
+  width: 28%;
+  padding: 20px;
 }
 
-.animal {
 
+.animal {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background-color: #D3C9FF;
+  color: black;
+  margin: 10px 0;
+  border: 5px solid black;
+  border-radius: 15px;
+
+}
+
+img {
+  width: 290px;
 }
